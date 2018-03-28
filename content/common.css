@@ -52,3 +52,11 @@ background-color:#3A3A3A
     background-color: #3a3a3a;
     color: #fff;
 }
+
+.bs-docs-masthead {
+    position: relative;
+    padding: 30px 0;
+    color: #000;
+    text-align: center;
+    background-color: rgba(0,0,0,.1);
+}
