@@ -1,0 +1,51 @@
+﻿html,body {
+  font-family: 微软雅黑;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:focus {
+	color:#fff; text-decoration: underline;
+}
+a:hover {
+	color: #fff; text-decoration: underline;
+}
+
+
+#top {
+background-color:#3A3A3A
+}
+
+.navbar-brand {
+    position: relative;
+    background-image: url('../imgs/jh.png');
+    background-size: 72px;
+    background-repeat: no-repeat;
+    background-position: left 50%;
+    padding-left:64px;
+    font-size:20px;
+    letter-spacing:-0.04rem;
+    color:#fff;
+    min-height:50px;
+    padding-top:15px;
+    line-height: 20px;
+}
+
+.nav > li > a:focus {
+	text-decoration: none; background-color: #000000;
+}
+.nav > li > a:hover {
+	text-decoration: none; background-color: #000000;
+}
+
+.jumbotron {
+    padding:0px;
+    margin:0px;
+}
+
+.banner { position: relative; overflow: auto; }
+    .banner li { list-style: none; }
+        .banner ul li { float: left; }
